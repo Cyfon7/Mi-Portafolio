@@ -1,6 +1,18 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
+#logo_nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  line-height: 88pt;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18pt;
+}
