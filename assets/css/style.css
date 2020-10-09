@@ -5,6 +5,12 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+
 #logo_nav {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
@@ -15,4 +21,19 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 18pt;
+}
+
+header {
+  height: 507px;      /*Cuadrar por porcentajes */
+}
+
+.hero-section {
+  text-align: center;
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 40px;     /*Mobile Values*/
+  line-height: 88pt;   /*Mobile Values*/
+
 }
