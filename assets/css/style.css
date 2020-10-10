@@ -1,5 +1,10 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
+.color-theme {
+  background-color: #660066;
+  color: #ffffff;
+}
+
 
 body {
   font-family: 'Oswald', sans-serif;
@@ -50,17 +55,30 @@ header .container {
   line-height: 88pt;   /*Mobile Values*/
 }
 
-.expe-cards h5, p {
+.expe-cards .card-title, .card-text {
   font-weight: 600;
   font-size: 25px;
   margin: 0;
 }
 
-.expe-cards p{
+.expe-cards .card-text, .work-cards .card-text {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-.expe-cards i{
+.expe-cards i {
   margin-bottom: 15px;
+}
+
+.work-cards{
+  width: 246.29px;
+  margin-bottom: 40px; /*Ajustar a otros tamaños extrapolar*/
+}
+
+.work-cards .card-title {
+  font-size: 17px;
+}
+
+.work-cards .card-text {
+  font-size: 1rem;
 }
