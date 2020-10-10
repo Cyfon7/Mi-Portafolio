@@ -3,7 +3,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
+  header {
+    height: 507px;      /*Cuadrar por porcentajes */
+  }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 

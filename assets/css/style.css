@@ -8,13 +8,17 @@ body {
 body * {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
+body .txt-border {
+  border-top: 2px solid;
+}
 
 #logo_nav {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
-  line-height: 88pt;
+  line-height: auto;
 }
 
 nav {
@@ -25,15 +29,38 @@ nav {
 
 header {
   height: 507px;      /*Cuadrar por porcentajes */
+  position: relative;
+}
+
+header .container {
+  padding-bottom: 1.68em;   /*Autoajuste con em 27px 35px 37.2px 45px*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .hero-section {
   text-align: center;
-  background-image: url('../img/bg_hero.png');
+  background-image: url('../img/bg_hero.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-size: 40px;     /*Mobile Values*/
   line-height: 88pt;   /*Mobile Values*/
+}
 
+.expe-cards h5, p {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0;
+}
+
+.expe-cards p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.expe-cards i{
+  margin-bottom: 15px;
 }
