@@ -5,9 +5,9 @@
   color: #ffffff;
 }
 
-
 body {
   font-family: 'Oswald', sans-serif;
+  color: #373a3c;
 }
 
 body * {
@@ -24,6 +24,12 @@ body .txt-border {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   line-height: auto;
+}
+
+#logo_foot {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 88pt;
 }
 
 nav {
@@ -55,6 +61,10 @@ header .container {
   line-height: 88pt;   /*Mobile Values*/
 }
 
+.expe-cards, .work-cards {
+  color: #373a3c;
+}
+
 .expe-cards .card-title, .card-text {
   font-weight: 600;
   font-size: 25px;
@@ -81,4 +91,13 @@ header .container {
 
 .work-cards .card-text {
   font-size: 1rem;
+}
+
+footer {
+  height: 215px;
+}
+
+footer i {
+  font-size: 42px;
+  padding: 0 10px;
 }
