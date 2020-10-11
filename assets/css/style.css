@@ -32,8 +32,11 @@ body .txt-border {
 #logo_foot {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  line-height: 88pt;
+  line-height: 50pt;
+  padding-top: 30px;
 }
+
+
 
 nav {
   font-family: 'Roboto', sans-serif;
@@ -128,33 +131,25 @@ header .line-between {
 }
 
 #contact .card-text{
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   margin: 200px 0;  /*Variar de acuerdo a resolucion */
 }
 
+/*
 footer {
   height: 215px;
 }
 
-footer a {
+*/
+footer i {
   font-size: 42px;
-  padding: 0 10px;
+  line-height: 50px;
+  padding: 0 10px 70px 10px;
   color: #ffffff;
 }
 
-
-/* Extra small devices (portrait phones, less than 576px)
-   No media query for `xs` since this is the default in Bootstrap
-*/
-Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  header {
-    height: 507px;      /*Cuadrar por porcentajes*/
-  }
-}
- /*Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   header {
     height: 576px;
@@ -163,6 +158,21 @@ Small devices (landscape phones, 576px and up)
   header .container {
     padding-bottom: 35px;
   }
+
+  #contact .card-text{
+    margin: 0;
+  }
+
+  #logo_foot {
+    font-size: 40px;
+    padding: 76px 0;
+  }
+
+  footer i {
+    font-size: 50px;
+    padding: 0 10px;
+  }
+
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -174,12 +184,32 @@ Small devices (landscape phones, 576px and up)
     padding-bottom: 37.7px;
   }
 
-  header h1, span {
+  header h1, #logo_foot {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 88pt;
+  }
+
+  span {
     font-size: 72px;
   }
 
   .title-sec {
     font-size: 52px;
+  }
+
+  #contact .card-text{
+    margin: 0;
+  }
+
+  #logo_foot {
+    font-size: 40px;
+    padding: 51px 0;
+  }
+
+  footer i {
+    font-size: 50px;
+    padding: 0 10px;
   }
 }
 
@@ -199,5 +229,19 @@ Small devices (landscape phones, 576px and up)
 
   .title-sec {
     font-size: 52px;
+  }
+
+  #contact .card-text{
+    margin: 0;
+  }
+
+  #logo_foot {
+    font-size: 40px;
+    padding-top: 0;
+  }
+
+  footer i {
+    font-size: 50px;
+    padding: 0 10px;
   }
 }
