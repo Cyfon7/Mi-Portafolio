@@ -17,7 +17,10 @@ body * {
 }
 
 body .txt-border {
-  border-top: 2px solid;
+  border-top: 3px solid;
+  width: 115.5px;
+  display: inline-block;
+  margin: 20px;
 }
 
 #logo_nav {
@@ -41,14 +44,20 @@ nav {
 header {
   height: 507px;      /*Cuadrar por porcentajes */
   position: relative;
+  margin-top: 56px;
 }
 
 header .container {
-  padding-bottom: 1.68em;   /*Autoajuste con em 27px 35px 37.2px 45px*/
+  padding-bottom: 27px;   /*Autoajuste con em 27px 35px 37.2px 45px*/
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+header .line-between {
+  border-top: 3px solid;
+
 }
 
 .hero-section {
@@ -100,7 +109,7 @@ header .container {
 }
 
 .work-cards{
-  width: 246px;
+  width: 246px;  font-size: 40px;     /*Mobile Values*/
   margin-bottom: 40px; /*Ajustar a otros tamaños extrapolar*/
 }
 
@@ -140,18 +149,55 @@ footer a {
    No media query for `xs` since this is the default in Bootstrap
 */
 Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
   header {
     height: 507px;      /*Cuadrar por porcentajes*/
   }
+}
  /*Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
   header {
-    
+    height: 576px;
   }
 
+  header .container {
+    padding-bottom: 35px;
+  }
+}
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+  header {
+    height: 646px;
+  }
+
+  header .container {
+    padding-bottom: 37.7px;
+  }
+
+  header h1, span {
+    font-size: 72px;
+  }
+
+  .title-sec {
+    font-size: 52px;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  header {
+    height: 737px;
+  }
+
+  header .container {
+    padding-bottom: 45px;
+  }
+
+  header h1, span {
+    font-size: 72px;
+  }
+
+  .title-sec {
+    font-size: 52px;
+  }
+}
