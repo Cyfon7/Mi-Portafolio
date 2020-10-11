@@ -36,8 +36,6 @@ body .txt-border {
   padding-top: 30px;
 }
 
-
-
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -92,6 +90,14 @@ header .line-between {
   letter-spacing: 0.16pt;
 }
 
+.carousel-indicators li {
+  background-color: #373a3c;
+}
+
+.carousel-indicators .active {
+  background-color: #660066;
+}
+
 .expe-cards, .work-cards {
   color: #373a3c;
 }
@@ -109,6 +115,7 @@ header .line-between {
 
 .expe-cards i {
   margin-bottom: 15px;
+  color: #660066
 }
 
 .work-cards{
@@ -232,7 +239,7 @@ footer i {
 
   #logo_foot {
     font-size: 40px;
-    padding-top: 0;
+    padding-top: 51px 0;
   }
 
   footer i {
