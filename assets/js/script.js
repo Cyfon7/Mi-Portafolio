@@ -1,16 +1,19 @@
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+$(function(){
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-  header {
-    height: 507px;      /*Cuadrar por porcentajes */
-  }
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+  $("a").click(function(event){
+    if (this.hash !== "") {
+      event.preventDefault();
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+      var tag_sect = this.hash;
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+      $("html, body").animate({
+        scrollTop: $(tag_sect).offset().top
+      }, 800, function(){
+        window.location.hash = tag_sect;
+      });
+    }
+  });
+
+  $('[data-toggle="popover"]').popover();
+
+});

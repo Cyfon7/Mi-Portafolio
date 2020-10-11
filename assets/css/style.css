@@ -81,7 +81,7 @@ header .container {
 }
 
 .work-cards{
-  width: 246.29px;
+  width: 246px;
   margin-bottom: 40px; /*Ajustar a otros tamaños extrapolar*/
 }
 
@@ -93,11 +93,43 @@ header .container {
   font-size: 1rem;
 }
 
+.contact-card {
+  font-size: 35px;
+  line-height: 88pt;
+  font-weight: 400;
+}
+
+#contact .card-text{
+font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 200px 0;  /*Variar de acuerdo a resolucion */
+}
+
 footer {
   height: 215px;
 }
 
-footer i {
+footer a {
   font-size: 42px;
   padding: 0 10px;
+  color: #ffffff;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap
+*/
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+  header {
+    height: 507px;      /*Cuadrar por porcentajes*/
+  }
+ /*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

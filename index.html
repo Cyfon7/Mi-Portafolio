@@ -31,6 +31,7 @@
   </head>
 
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark color-theme fixed-top">
       <div class="container">
         <a id="logo_nav" class="navbar-brand font-weight-bolder" href="#">J</a>
@@ -40,22 +41,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mi</a>
+                <a class="nav-link" href="#description">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#experience">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link" href="#last_works">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
       </div>
     </nav>
 
+    <!-- Hero Section-->
     <header id="init_hero" class="hero-section text-white">
       <div class="container">
             <h1 class="font-weight-lighter pb-3">YO SOY</h1>
@@ -63,10 +65,12 @@
       </div>
     </header>
 
+    <!-- Description Section -->
     <section id="description" class="d-none d-sm-none d-md-block">
       <h1 style="color:red">TEST</h1>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
       <div class="container text-center py-4">
         <h2 class="font-weight-bold pb-4">MI EXPERIENCIA</h2>
@@ -92,6 +96,7 @@
       </div>
     </section>
 
+    <!-- Last Works Section -->
     <section id="last_works" class="color-theme pt-4">
       <div class="container text-center py-4">
         <h2 class="font-weight-bold pb-4">MIS ÚLTIMOS<br>TRABAJOS</h2>      <!--Una sola linea en tamaños md lg-->
@@ -155,14 +160,24 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
       <div class="container text-center py-4">
         <h2 class="font-weight-bold pb-4">CONTACTO</h2>
         <h2><span class="txt-border font-weight-bold border-dark">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h2>
+        <div class="card align-items-center border-0">
+          <div class="card-body">
+            <h5 class="card-text">Escribe tu pregunta acá</h5>
+          </div>
+          <div class="card-footer border-bottom">
+            <a class="typeform-share button" href="https://form.typeform.com/to/WcJHrMlE" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#373A3C;color:grey;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:30px;text-align:center;margin:0;height:30px;padding:0;border-radius:5px;width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Comenzar </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer class="color-theme text-center">
+    <!-- Footer & Social -->
+    <footer class="color-theme text-center mt-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -170,10 +185,10 @@
           </div>
           <div class="col-md-6">
             <div class="social-web">
-              <i class="fab fa-github-square"></i>
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-twitter-square"></i>
-              <i class="fab fa-facebook-square"></i>
+              <a href="https://www.github.com" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
             </div>
           </div>
         </div>
