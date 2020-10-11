@@ -61,6 +61,25 @@ header .container {
   line-height: 88pt;   /*Mobile Values*/
 }
 
+#description {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.central-txt {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5pt;
+}
+
+.column-txt {
+  font-size: 1rem;
+  line-height: 30pt;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.16pt;
+}
+
 .expe-cards, .work-cards {
   color: #373a3c;
 }
@@ -127,6 +146,9 @@ Small devices (landscape phones, 576px and up)
   }
  /*Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
+  header {
+    
+  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
