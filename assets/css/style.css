@@ -63,7 +63,8 @@ header .line-between {
 
 .hero-section {
   text-align: center;
-  background-image: url('../img/bg_hero.png'); */
+  /*background-image: url('../img/bg_hero.png'); */
+  background-image: url('../img/hero_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,7 +138,14 @@ header .line-between {
   font-weight: 400;
 }
 
-#contact .card-text{
+#contact .card {
+  background-image: url('../img/contact.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact .card-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -151,6 +159,13 @@ footer i {
   color: #ffffff;
 }
 
+@media (min-width: 576px) {
+  #contact .card {
+    background-position: top;
+  }
+}
+
+
 /* medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   header {
@@ -161,7 +176,7 @@ footer i {
     padding-bottom: 35px;
   }
 
-  #contact .card-text{
+  #contact .card-text {
     margin: 0;
   }
 
@@ -200,6 +215,13 @@ footer i {
     font-size: 52px;
   }
 
+  #contact .card {
+    background-position: top;
+    background-origin: content-box;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
   #contact .card-text{
     margin: 0;
   }
@@ -231,6 +253,13 @@ footer i {
 
   .title-sec {
     font-size: 52px;
+  }
+
+  #contact .card {
+    background-position: top;
+    background-origin: content-box;
+    padding-top: 20px;
+    padding-bottom: 150px;
   }
 
   #contact .card-text{
