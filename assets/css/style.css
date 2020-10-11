@@ -1,7 +1,7 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
 .color-theme {
-  background-color: #660066;
+  background-color: #A6671B; /*#E6B54A; /*#660066;*/
   color: #ffffff;
 }
 
@@ -96,7 +96,7 @@ header .line-between {
 }
 
 .carousel-indicators .active {
-  background-color: #660066;
+  background-color:  #A8A163;/*#27C24D; /*#660066;      /*Color Indicator Carousel*/#A6671B;
 }
 
 .expe-cards, .work-cards {
@@ -116,7 +116,7 @@ header .line-between {
 
 .expe-cards i {
   margin-bottom: 15px;
-  color: #660066
+  color: #A8A163;/*#27C24D; /*#660066;         /*Color Icons*/ #A6671B;
 }
 
 .work-cards{
@@ -150,6 +150,8 @@ header .line-between {
   font-size: 1rem;
   font-weight: 600;
   margin: 200px 0;  /*Variar de acuerdo a resolucion */
+  color: #F0DF47;
+  text-shadow: 2px 2px #A6671B;
 }
 
 footer i {
@@ -193,6 +195,10 @@ footer i {
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .color-theme {
+    background-color: #A8A163; /*#660066;*/
+  }
+
   header {
     height: 646px;
   }
@@ -201,12 +207,16 @@ footer i {
     padding-bottom: 37.7px;
   }
 
+  header h1, span {
+    font-size: 72px;
+  }
+/*
   header h1, #logo_foot {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   line-height: 88pt;
   }
-
+*/
   span {
     font-size: 72px;
   }
@@ -214,6 +224,16 @@ footer i {
   .title-sec {
     font-size: 52px;
   }
+
+  .expe-cards i {
+    margin-bottom: 15px;
+    color: #A6671B;/*#27C24D; /*#660066;         /*Color Icons*/
+  }
+
+  .carousel-indicators .active {
+    background-color:  #A6671B;/*#27C24D; /*#660066;      /*Color Indicator Carousel*/
+  }
+
 
   #contact .card {
     background-position: top;
@@ -239,6 +259,11 @@ footer i {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .color-theme {
+    background-color: #A8A163; /*#660066;*/
+    color: #ffffff;
+  }
+
   header {
     height: 737px;
   }
@@ -253,6 +278,15 @@ footer i {
 
   .title-sec {
     font-size: 52px;
+  }
+
+  .expe-cards i {
+    margin-bottom: 15px;
+    color: #A6671B;/*#27C24D; /*#660066;         /*Color Icons*/
+  }
+
+  .carousel-indicators .active {
+    background-color:  #A6671B;/*#27C24D; /*#660066;      /*Color Indicator Carousel*/
   }
 
   #contact .card {
